@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Custom APT Repository</title>
+    <title>lnx APT Repository</title>
     <style>
         body { font-family: sans-serif; max-width: 800px; margin: 40px auto; padding: 20px; line-height: 1.6; }
         code {  background: #1e1e1e; padding: 2px 6px; border-radius: 4px; }
@@ -11,7 +11,7 @@
     </style>
 </head>
 <body>
-    <h1>Welcome to My APT Repository</h1>
+    <h1>Welcome to lnx APT Repository</h1>
     <p>This repository hosts custom Debian packages.</p>
 
     <h2>How to Install</h2>
@@ -19,7 +19,7 @@
 
     <div class="block">
         <pre><code># 1. Download the public key
-curl -fsSL https://lnoxsian.github.io/apt-repo/pubkey.gpg | sudo gpg --dearmor -o /usr/share/keyrings/lnx-apt-repo-keyring.gpg
+curl -fsSL https://lnoxsian.github.io/lnx-apt-repo/pubkey.gpg | sudo gpg --dearmor -o /usr/share/keyrings/lnx-apt-repo-keyring.gpg
 
 # 2. Add the repository to your sources list
 echo "deb [signed-by=/usr/share/keyrings/lnx-apt-repo-keyring.gpg] https://lnoxsian.github.io/apt-repo any main" | sudo tee /etc/apt/sources.list.d/lnx-apt-repo.list > /dev/null
