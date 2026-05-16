@@ -10,19 +10,24 @@ This repository provides signed Debian packages for easy installation on systems
 
 ### Quick Start
 
-To add this repository to your system and start installing packages, run these commands:
+To add this repository to your system and start installing packages, follow these three steps.
+
+#### Step 1 — Download the public key
 
 ```bash
-# 1. Download and install the public key
-curl -fsSL https://lnoxsian.github.io/apt-repo/pubkey.gpg | sudo gpg --dearmor -o /usr/share/keyrings/lnx-apt-repo-keyring.gpg
+curl -fsSL https://lnoxsian.github.io/lnx-apt-repo/pubkey.gpg | sudo gpg --dearmor -o /usr/share/keyrings/lnx-apt-repo-keyring.gpg
+```
 
-# 2. Add the repository to your sources list
-echo "deb [signed-by=/usr/share/keyrings/lnx-apt-repo-keyring.gpg] https://lnoxsian.github.io/apt-repo any main" | sudo tee /etc/apt/sources.list.d/lnx-apt-repo.list > /dev/null
+#### Step 2 — Add the repository to your sources list (arch=amd64)
 
-# 3. Update your package cache
+```bash
+echo "deb [arch=amd64 signed-by=/usr/share/keyrings/lnx-apt-repo-keyring.gpg] https://lnoxsian.github.io/lnx-apt-repo any main" | sudo tee /etc/apt/sources.list.d/lnx-apt-repo.list > /dev/null
+```
+
+#### Step 3 — Update your package cache and install packages
+
+```bash
 sudo apt update
-
-# 4. Install packages
 sudo apt install <package-name>
 ```
 
@@ -33,7 +38,7 @@ sudo apt install <package-name>
 The repository uses GPG signatures to ensure package authenticity. Download the public key:
 
 ```bash
-curl -fsSL https://lnoxsian.github.io/apt-repo/pubkey.gpg | sudo gpg --dearmor -o /usr/share/keyrings/lnx-apt-repo-keyring.gpg
+curl -fsSL https://lnoxsian.github.io/lnx-apt-repo/pubkey.gpg | sudo gpg --dearmor -o /usr/share/keyrings/lnx-apt-repo-keyring.gpg
 ```
 
 This command:

@@ -5,28 +5,80 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>lnx APT Repository</title>
     <style>
-        body { font-family: sans-serif; max-width: 800px; margin: 40px auto; padding: 20px; line-height: 1.6; }
-        code {  background: #1e1e1e; padding: 2px 6px; border-radius: 4px; }
-        .block { background: #1e1e1e; color: #fff; padding: 15px; border-radius: 8px; overflow-x: auto; }
+        body { font-family: monospace; max-width: 800px; margin: 40px auto; padding: 20px; line-height: 1.6; }
+        code { background: #1e1e1e; color: #fff; padding: 2px 6px; border-radius: 4px; }
+        .block { position: relative; background: #1e1e1e; color: #fff; padding: 15px; border-radius: 8px; }
+        .block pre { margin: 0; white-space: pre-wrap; word-break: break-word; font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, "Roboto Mono", "Courier New", monospace; background: transparent; color: inherit; }
+        .copy-btn {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            background: rgba(255,255,255,0.06);
+            border: none;
+            color: #fff;
+            padding: 6px 8px;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 14px;
+        }
+        .copy-btn:active { transform: translateY(1px); }
+        .copy-tooltip { position: absolute; top: -30px; right: 10px; background: #111; color: #fff; padding: 6px 8px; border-radius: 6px; font-size: 12px; display: none; }
+        .copy-tooltip.show { display: block; }
     </style>
 </head>
 <body>
     <h1>Welcome to lnx APT Repository</h1>
-    <p>This repository hosts custom Debian packages.</p>
+    <p>This repository hosts custom Debian packages that i maintain for fun.</p>
 
     <h2>How to Install</h2>
     <p>Run the following commands in your terminal to add this repository to your system:</p>
 
     <div class="block">
-        <pre><code># 1. Download the public key
-curl -fsSL https://lnoxsian.github.io/lnx-apt-repo/pubkey.gpg | sudo gpg --dearmor -o /usr/share/keyrings/lnx-apt-repo-keyring.gpg
-
-# 2. Add the repository to your sources list
-echo "deb [signed-by=/usr/share/keyrings/lnx-apt-repo-keyring.gpg] https://lnoxsian.github.io/apt-repo any main" | sudo tee /etc/apt/sources.list.d/lnx-apt-repo.list > /dev/null
-
-# 3. Update and install your package
-sudo apt update
+        <strong style="display:block;margin-bottom:8px;color:#ddd">Step 1 — Download the public key</strong>
+        <button class="copy-btn" aria-label="Copy code">CC</button>
+        <div class="copy-tooltip" role="status" aria-live="polite">Copied</div>
+        <pre><code>curl -fsSL https://lnoxsian.github.io/lnx-apt-repo/pubkey.gpg | sudo gpg --dearmor -o /usr/share/keyrings/lnx-apt-repo-keyring.gpg</code></pre>
+    </div>
+    <br>
+    <div class="block">
+        <strong style="display:block;margin-bottom:8px;color:#ddd">Step 2 — Add repository to sources (arch=amd64)</strong>
+        <button class="copy-btn" aria-label="Copy code">CC</button>
+        <div class="copy-tooltip" role="status" aria-live="polite">Copied</div>
+        <pre><code>echo "deb [arch=amd64 signed-by=/usr/share/keyrings/lnx-apt-repo-keyring.gpg] https://lnoxsian.github.io/lnx-apt-repo any main" | sudo tee /etc/apt/sources.list.d/lnx-apt-repo.list > /dev/null</code></pre>
+    </div>
+    <br>
+    <div class="block">
+        <strong style="display:block;margin-bottom:8px;color:#ddd">Step 3 — Update and install package</strong>
+        <button class="copy-btn" aria-label="Copy code">CC</button>
+        <div class="copy-tooltip" role="status" aria-live="polite">Copied</div>
+        <pre><code>sudo apt update
 sudo apt install whatsapp</code></pre>
     </div>
+    <script>
+        (function(){
+            document.querySelectorAll('.block').forEach(block => {
+                const btn = block.querySelector('.copy-btn');
+                const codeEl = block.querySelector('pre code');
+                const tip = block.querySelector('.copy-tooltip');
+                btn.addEventListener('click', async () => {
+                    const text = codeEl.innerText;
+                    try {
+                        await navigator.clipboard.writeText(text);
+                        tip.classList.add('show');
+                        setTimeout(() => tip.classList.remove('show'), 1500);
+                    } catch (e) {
+                        const tmp = document.createElement('textarea');
+                        tmp.value = text;
+                        document.body.appendChild(tmp);
+                        tmp.select();
+                        document.execCommand('copy');
+                        document.body.removeChild(tmp);
+                        tip.classList.add('show');
+                        setTimeout(() => tip.classList.remove('show'), 1500);
+                    }
+                });
+            });
+        })();
+    </script>
 </body>
 </html>
