@@ -1,0 +1,38 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Origin: GitHub
+Label: GitHub APT Repo
+Suite: stable
+Codename: any
+Date: Sun, 24 May 2026 08:49:43 UTC
+Architectures: amd64
+Components: main
+MD5Sum:
+ f951411cf347fcfc0fd43b4ca02c2bfb 707 main/binary-amd64/Packages
+ fc93c1426fa633e755f9f957554d2877 472 main/binary-amd64/Packages.gz
+ 58144edb21a3abc363a3124e5d2f07b1 90 main/binary-amd64/Release
+SHA1:
+ 7e2b634405151c417f9de527c01ce7154e6147b7 707 main/binary-amd64/Packages
+ 718313b63e389bd3c0415b20e1b961aa01dffee0 472 main/binary-amd64/Packages.gz
+ 8b950d59042b490da98d753c60fb7ee7eb86a7bf 90 main/binary-amd64/Release
+SHA256:
+ 0fe66a45c7d41149c484e3450b941592ca5937b3ae81bdf6ec586109283c2c8c 707 main/binary-amd64/Packages
+ dac0a5c2ce4000943db2ba01242702abc048ffccbce2dd846e5bc16eb2590d78 472 main/binary-amd64/Packages.gz
+ 8f2070ae96028a733cce5e7f73e81a9339da4ba5452fa26e8e7667d1e98ad0ed 90 main/binary-amd64/Release
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCgAdFiEE6dgu2CdML7qEvVfIHHc1FOANjHMFAmoSu6cACgkQHHc1FOAN
+jHOvcw//Q/drR6N5cBSt2HYNL13uoeRfXSPYt5sZCclqlEnZbHztYon0kOYHm2aQ
+gZI8/Dzda84bb8IiyGZjz1dvVwkOExRsPX/ABOsMNos6nNtWaUFqbbauyLc5JI2g
+0l0RwXcJjvHCXp15L8LQABFn3n72Z/HRt/6ePFYe0CZuj1W82ibOhTw9vEjdP8Pz
+9rvcNcqSt1y1vbXUt+4O4NvQ8uabfGWyeG1DQ599oyt66QLZW/j9LcUSo7BuZs6y
+tVbHT/0lFJqmCWEvf5BU7sp0Fowd06qBuPzoDFRNS3z/CNg9rV6D/xkFMUCqZdq7
+wmq2QlhNWzEuno3K1JYnehWKKZXTpTwfKRB8C6mNoboQhpxjnM4b0wVnQIFtP/bw
+bLtqfbFOjV+8qxLrxNuBKs+GDfdP/pXynY0NA3yiBVcS8zYktJp777qPap5WApyl
+aFwoZlvzcHDLlrHMKwHYib9aby+UR+JjSVk0QADPB2a85VZyozBRzQatNzzTUm5Y
+CuChHfxIunORX1ZF3bkmMg2UERta6HATTMADmgdG2Jnn/di5kK0Cs4f2qIkFPeqO
+uW7qGm31GP+smEmvhfJHE9CQSg7QLpKYneJnN6QuxVOpHHPzYIzmmZIozJN7M793
+tqHqTpb4r5NfqsG0/jGlZFaU1FcKysbs/GRTtfWCrEPBFPIlaj8=
+=by2N
+-----END PGP SIGNATURE-----

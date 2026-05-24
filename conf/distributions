@@ -1,0 +1,7 @@
+Origin: GitHub
+Label: GitHub APT Repo
+Suite: stable
+Codename: any
+Components: main
+Architectures: amd64
+SignWith: 28154B4FFF382EE9C5986773C260D7B4A6B24529
