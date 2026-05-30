@@ -2,18 +2,18 @@ Origin: GitHub
 Label: GitHub APT Repo
 Suite: stable
 Codename: any
-Date: Fri, 29 May 2026 08:24:56 UTC
+Date: Sat, 30 May 2026 13:56:30 UTC
 Architectures: amd64
 Components: main
 MD5Sum:
- 50d5872d7d3a432e6e3f3f2ad73f661a 707 main/binary-amd64/Packages
- 9269ab3f35acd1401a5fb7aee0415b65 472 main/binary-amd64/Packages.gz
+ fd8514b7167488b7e005b8c45936d850 707 main/binary-amd64/Packages
+ 5bcfc1f1a0d17be26eaeff765b389f80 471 main/binary-amd64/Packages.gz
  58144edb21a3abc363a3124e5d2f07b1 90 main/binary-amd64/Release
 SHA1:
- e77d8c3bfa58aafa1ab5a0ee23c1fcb820403cc1 707 main/binary-amd64/Packages
- f1584ff3b4509a4561489ef8a3ed25dc4fd72e56 472 main/binary-amd64/Packages.gz
+ c6e45aca89351cf96ac8f8b387bd23e1ece7831c 707 main/binary-amd64/Packages
+ 22f98dfa5c36e3ad2b4097841c855f131f33fab1 471 main/binary-amd64/Packages.gz
  8b950d59042b490da98d753c60fb7ee7eb86a7bf 90 main/binary-amd64/Release
 SHA256:
- 27a211ce9c9685fbe012a2b59ac76c59a801dfda3ac1e4bf1101b7fe5b9cb4f3 707 main/binary-amd64/Packages
- 1b4580ad59801240ba57936b0ccf0073c0c3d8550ed1016aff6ae00e003839e8 472 main/binary-amd64/Packages.gz
+ f30c9ddcdf97da506720b1efef64d06700a97e0c62096146b6acd79d37888347 707 main/binary-amd64/Packages
+ f244b7c24744b23f4035f1c7979d6f8909918e7eb128a358e7e3c31d66d96b10 471 main/binary-amd64/Packages.gz
  8f2070ae96028a733cce5e7f73e81a9339da4ba5452fa26e8e7667d1e98ad0ed 90 main/binary-amd64/Release
