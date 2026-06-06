@@ -5,34 +5,34 @@ Origin: GitHub
 Label: GitHub APT Repo
 Suite: stable
 Codename: any
-Date: Fri, 05 Jun 2026 16:50:55 UTC
+Date: Sat, 06 Jun 2026 17:55:32 UTC
 Architectures: amd64
 Components: main
 MD5Sum:
- d2b433226c0725aeea8bb1ea6e19e7b2 707 main/binary-amd64/Packages
- 6bfe80fb2b2e9835fc062a7cd7e33c5c 471 main/binary-amd64/Packages.gz
+ 45085103cfe85050cbece65d7041d302 707 main/binary-amd64/Packages
+ f0df51009e1bef81000f4ba30be3202e 471 main/binary-amd64/Packages.gz
  58144edb21a3abc363a3124e5d2f07b1 90 main/binary-amd64/Release
 SHA1:
- 7aaaa847516c6b6ac72352b8399d4460e4c369cd 707 main/binary-amd64/Packages
- 4092cbdbfef2d64acff4d46f7ce8023a39a23384 471 main/binary-amd64/Packages.gz
+ 0b93654eae7e2f575e3764b92e2811767fcfedac 707 main/binary-amd64/Packages
+ 39ad67cbe5bfb1370a573cd6c93389e3e73f4e97 471 main/binary-amd64/Packages.gz
  8b950d59042b490da98d753c60fb7ee7eb86a7bf 90 main/binary-amd64/Release
 SHA256:
- 40dcdbbe3feaac64942d94e590295d939f6f0387f237cdf57125f7a174755eda 707 main/binary-amd64/Packages
- 0a34809744dbca5d68a6fa340be80ba4175aa69ae55ed8778ac1010107aeae42 471 main/binary-amd64/Packages.gz
+ 6197c2501029b75c0f5f12ca8b831d2583116738c6524e19e67a436fb66ec23e 707 main/binary-amd64/Packages
+ 1270d12cd9a512bad37157133721a957bdd763bb343ecb328b9c9e83f02ad133 471 main/binary-amd64/Packages.gz
  8f2070ae96028a733cce5e7f73e81a9339da4ba5452fa26e8e7667d1e98ad0ed 90 main/binary-amd64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE6dgu2CdML7qEvVfIHHc1FOANjHMFAmoi/m8ACgkQHHc1FOAN
-jHOATQ/+L/U7Xw3OOGTtaWztq90VMF/d1kS/kGM8v54ss5nplxWjiOtwXaW14Kg8
-nW4Bfi1GqD10o2iRGTW4uQEjgn0tS0q6Xi6KTyFgH5mh2VJCU9t5F6N8fYKuSJ5c
-b3rVTMixJ93oJ4HUhjFbCdLdRUdtzMh1VK5QeTTwWQPlAauRqy4Dl4SVEtiM5LLN
-6KDAvQfiVXHNBLR21WtOcTljYvEkvZwbBFI7IApjbZVh1KO82YFac3D2BSaYeHgK
-yYBK6Z4kSTm6onJIyx03yabcz9nHKx8XirWxzJfhEilXCBiO0JF0LlZjcaeNHeiz
-sBRb2LFLbTIpOVh1+yjbdldQWZJa8uHVDDCmkp41l6grj2twUIULwKsO88P2yMEA
-RNiVvmoGGDUIfDQIo0m8IYIO/NWA4/cBJcLqIO4487TDBVGLd8f2DzPfMpGyBl+1
-tEJ66W4+75BgrWRQ57ZECnQqAEvuKVJhyjmGbyj7ZL5TQimxCrG/446g09rovFuX
-uhjwdcdAvIUoG0Tf2OVf3AjBPFRCiyWDF4v53p02XN877LFvfYbKbpuUdd9ezrWr
-KCiWOaPM8WkWKfxSFvG1pwhd4uzfDEmwzyWSOWm3fW+FBj+FCUM2ecFJxfmfUDTv
-nebKcFoZd3F9sI8P4hdYtZMfiOkguhhX1ihGBSeGlTr4oZbNubA=
-=6u2e
+iQIzBAEBCgAdFiEE6dgu2CdML7qEvVfIHHc1FOANjHMFAmokXxQACgkQHHc1FOAN
+jHNwdg/+JxtIVh+1LDIuAquUIegWupNc7uqqLaUYP3PFcjmJN4aCJ9byrwmTupu+
+d2cSbyGJis+P4li2uZkZfAQ5TAU0s/2aX6qenPqxtqSZkh1mfJLjT0oPI9gYd5gE
+tpka05c8S/Rv8x99R5dk7RE9WsnvrWGIfpx24ZU4zK0AjCDTNDBjvWYQVH0LqGYi
+6JEiORCUmu/a63w1xkocwo9UXesW2g2Vr0lvK4RU/5ORqyqXNbpOV063wsRV0q6D
+31FhrS2TyTfhfzj1WzrMXtvxmdn3xP1YOWrcfjaAz+L3kjR8lfYM7H6PLlx/dQlV
+aJ6RObAQAqYUWT76QDXrgnG2yPpgroskKqNO6bkdTjyhWSqxDneugxLLH/OLcS4S
+AOYMT0MrldwRNzSGlYW2gq33EfGfi4ZT5pESeQ4ihlHB8jaeR/jtodEUm47SdP7a
+dFiEd0Nu4WaHhDCsYP3kGvxfxgkyzEZ27jiK2aADN8RcC2aDfP5n/fJEtsJwe4hV
+YMMWnbifpW9ET0QNHj+Uc4+HnnvStiEyD/9Z/whxMs2gK2SiAlJgbr8SEryh919k
+Em1SElJrPr0O9i0dPoXP2UzwzeBwhNrNdz3lMHN5pgsIGk4BNJYeeZ8L2CyOXLGj
+BZ1rxa7tj08jbmzjekQjquMYlziNjcVlWa86hTw9S/rYvjBMPuA=
+=vAcY
 -----END PGP SIGNATURE-----
