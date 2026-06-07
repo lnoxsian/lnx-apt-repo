@@ -1,20 +1,20 @@
 Package: whatsapp
-Version: 0.0.15
+Version: 0.0.16
 License: ISC
 Vendor: name:lnoxsian email:lnox122224@tutamail.com
 Architecture: amd64
 Maintainer: name:lnoxsian email:lnox122224@tutamail.com
-Installed-Size: 303148
+Installed-Size: 303157
 Depends: libgtk-3-0, libnotify4, libnss3, libxss1, libxtst6, xdg-utils, libatspi2.0-0, libuuid1, libsecret-1-0
 Recommends: libappindicator3-1
 Homepage: https://lnoxsian.in
 Priority: optional
 Section: default
-Filename: pool/main/w/whatsapp/whatsapp_0.0.15_amd64.deb
-Size: 92939670
-SHA256: 4fd47a07856680640fed7d5b0d973922dc039eef2de4fbcfc810ac7999eefda2
-SHA1: c41161ed8df167e6211b066307fd91d519c69100
-MD5sum: d9e452398bc978b9423307c1583a01b1
+Filename: pool/main/w/whatsapp/whatsapp_0.0.16_amd64.deb
+Size: 92945278
+SHA256: 2ec583f589beafa953c5bf17974d69ef32d387b8cff509aaf9c77569509f1569
+SHA1: 3f05d7aee8a8c8c547d94240fb8aba6b034b7641
+MD5sum: e3b51e5a98f737d238fbe53b8fd0d128
 Description: 
   A WhatsApp desktop client for Debian-based distros
 
